@@ -1,10 +1,5 @@
-def draw_school():
-    #print("school not found")
-    #print("--------------------------------")
-    print("------  -------                 ")
-    print("-    -  -      -----   -----    ")
-    print("-    -  -          -   -   -----")
-    print("-    -  -          -   - -     -")
-    print("-    -  -          -   -       -")
-    print("--------------------------------")
+def draw_school(height = 5):
+    print("________")
+    for i in range(height):
+        print("|_______|")
     return
